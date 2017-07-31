@@ -11,7 +11,7 @@ public class Task {
     public Boolean done;
 
     public Task() {
-        
+
     }
 
     public Task(String description) {
