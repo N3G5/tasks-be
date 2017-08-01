@@ -3,6 +3,7 @@ package nl.mhjmaas;
 import nl.mhjmaas.model.Task;
 import nl.mhjmaas.repo.TaskRespository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
