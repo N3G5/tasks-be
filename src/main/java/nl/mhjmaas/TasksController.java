@@ -20,11 +20,6 @@ public class TasksController {
         return repository.findAll();
     }
 
-    @RequestMapping(method = RequestMethod.GET, value="/{id}")
-    public Task index(@PathVariable String taskId) {
-        return repository.findOne(taskId);
-    }
-
     @RequestMapping(method = RequestMethod.POST, value="/")
     public Task updateOrSave(@RequestBody Task task) {
         return repository.save(task);
